@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página Web</title>
+</head>
+<body style="margin: 0px; font-family: Arial, Helvetica, sans-serif; color: #000000;">
+
+    <header style="background-color: #eee4f5; padding: 30px 8%;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h1>Mi primera web</h1>
+            <nav style="gap: 20px;">
+                <strong>
+                <a href="#primero" style="margin-right:20px; color: #302064; text-decoration: none;">Inicio</a>
+                <a href="#segundo" style="margin-right:20px; color: #302064; text-decoration: none;">Sobre mi</a>
+                <a href="#tercero" style="margin-right:20px; color: #302064; text-decoration: none;">Proyectos</a>
+                <a href="#contacto" style="color: #302064; text-decoration: none;">Contactos</a>
+                </strong>
+            </nav>
+        </div>
+    </header>
+
+    <main style="margin: 6% 14px;">
+        <!-- el flex por definicion deja los div en linea en vez de estar en bloque -->
+        <section style="display: flex; align-items: center;">
+
+            <div style="width: 50%;">
+                <h2>Bienvenido a mi primera web</h2>
+                <p>Esta es una pagina web sencilla para explicar algunas etiquetas html.</p><br>
+                <a href="#" style="
+                background-color: #302064; 
+                color: beige;
+                padding: 15px 25px;
+                border-radius: 20px;
+                text-decoration: none;">Saber mas</a> 
+            </div> 
+
+            <div style="width: 50%;">
+                <img src="imagenes/escritorio.jpg" alt="escritorio" style="width: 100%; border-radius:10px;">
+            </div>
+
+        </section>
+
+        <section style="display: flex;">
+
+            <article id="primero" style="width: 30%;
+            background-color: #1357b1;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 25px;
+            border-radius: 12px;
+            margin-right: 10px;">
+            <h2>Sobre mi</h2>
+            <p>Esto es un parrafo de prueba</p>
+            </article>
+
+            <article id="segundo" style="width: 30%;
+            background-color: #350b05;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 25px; 
+            border-radius: 12px;
+            margin-right: 10px;">
+            <h2>Sobre mi</h2>
+            <p>Esto es un parrafo de prueba</p>
+            </article>
+
+            <article id="tercero" style="width: 30%;
+            background-color: #04290c;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 25px;
+            border-radius: 12px;">
+            <h2>Sobre mi</h2>
+            <p>Esto es un parrafo de prueba</p>
+            </article>
+
+        </section>
+
+    </main>
+    
+</body>
+</html>
